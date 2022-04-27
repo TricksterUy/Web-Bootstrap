@@ -1,0 +1,81 @@
+body{
+    background-image: url(imagenes/fondo.jpg);
+    background-size: 100vw 100vh; /*Viewport Width y Viewport Height*/
+    background-attachment: fixed;
+    margin: 0;
+}
+.logotckr{
+    width: 30px;
+    height: 30px;
+}
+.empresa{
+    width: 300px;
+    height: 150px;
+    transform: translateX(100px);
+    margin-bottom: 15px;
+    background-color: #3333333f
+}
+
+h2{
+    font-weight: 400;
+}
+p{
+    font-weight: 300;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+
+.columna{
+    background: rgb(228, 228, 228);
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgba(211, 211, 211, 0.462);
+    width: 15%;
+    box-sizing: border-box;
+}
+.elementos{
+    font-size: 20px;
+    color: #069A8E;
+}
+.btn-click{
+    background: rgb(168, 100, 207);
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.btn-click:hover{
+    background: rgb(92, 105, 204);
+}
+footer{
+
+    transform: translateY(200px);
+           
+       }
+
+@media (max-width: 1070px) {
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .columna{
+        width:100%;
+        margin-bottom: 20px;
+    }
+}
